@@ -31,6 +31,9 @@ function onBaitChange() {
 }
 </script>
 
+# Search Fish by Bait
+Look up what fishes can be caught by bait.
+
 <table>
   <tbody>
     <tr>
