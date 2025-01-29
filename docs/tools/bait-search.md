@@ -3,10 +3,8 @@ outline: deep
 ---
 
 <script setup>
-import { ref } from 'vue'
-import baitData from './baitData.json'
-
-const data = baitData
+import { ref, onMounted } from 'vue'
+import { data } from './bait.data.ts'
 
 const searchBait = ref("")
 const searchRarity = ref("")

@@ -4,9 +4,7 @@ outline: deep
 
 <script setup>
 import { ref } from 'vue'
-import fishData from './fishdata.json'
-
-const data = fishData
+import { data } from './fish.data.ts'
 
 const searchSpecies = ref("")
 const searchFishgroup = ref("")
