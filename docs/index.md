@@ -15,6 +15,9 @@ hero:
     - theme: alt
       text: Search Bait
       link: /tools/bait-search
+    - theme: alt
+      text: Search Fish by Bait
+      link: /tools/fish-by-bait
 
 features:
   - title: Pet Merge Calculator
