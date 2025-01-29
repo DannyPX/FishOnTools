@@ -24,10 +24,10 @@ function findBait(baitName) {
 
 function onBaitChange() {
   var baitObj = findBait(baitSelected.value)
-  this.searchFishgroup = baitObj.fishgroup.toString()
-  this.searchWater = baitObj.water.toString()
-  this.searchLocation = baitObj.location.toString()
-  this.searchLifestyle = baitObj.lifestyle.toString()
+  searchFishgroup.value = baitObj.fishgroup.toString()
+  searchWater.value = baitObj.water.toString()
+  searchLocation.value = baitObj.location.toString()
+  searchLifestyle.value = baitObj.lifestyle.toString()
 }
 </script>
 
