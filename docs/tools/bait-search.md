@@ -3,42 +3,45 @@ outline: deep
 ---
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref } from 'vue'
 import { data } from './bait.data.ts'
 
 const searchBait = ref("")
 const searchRarity = ref("")
-const searchSpecies = ref("")
+const searchFishgroup = ref("")
 const searchLocation = ref("")
 const searchWater = ref("")
 </script>
+
+# Bait overview
+Here you can search baits by name, rarity, fish group, location or water type.
 
 <table>
   <tbody>
     <tr>
       <th><div :class="$style.label">Search Bait</div> <input :class="$style.inputBox" v-model="searchBait" placeholder="Search"/></th>
       <th><div :class="$style.label">Search Rarity</div> <input :class="$style.inputBox" v-model="searchRarity" placeholder="Search"/></th>
-      <th><div :class="$style.label">Search Species</div> <input :class="$style.inputBox" v-model="searchSpecies" placeholder="Search"/></th>
+      <th><div :class="$style.label">Search Fish Group</div> <input :class="$style.inputBox" v-model="searchFishgroup" placeholder="Search"/></th>
       <th><div :class="$style.label">Search Location</div> <input :class="$style.inputBox" v-model="searchLocation" placeholder="Search"/></th>
       <th><div :class="$style.label">Search Water</div> <input :class="$style.inputBox" v-model="searchWater" placeholder="Search"/></th>
     </tr>
     <tr>
       <th>Bait</th>
       <th>Rarity</th>
-      <th>Species</th>
+      <th>Fish Group</th>
       <th>Location</th>
       <th>Water</th>
     </tr>
     <template v-for="bait in data">
       <tr v-if="(bait.bait.toLowerCase().includes(searchBait.toLowerCase()) 
         && bait.rarity.toLowerCase().includes(searchRarity.toLowerCase())
-        && bait.species.toString().toLowerCase().includes(searchSpecies.toLowerCase())
+        && bait.fishgroup.toString().toLowerCase().includes(searchFishgroup.toLowerCase())
         && bait.location.toString().toLowerCase().includes(searchLocation.toLowerCase())
         && bait.water.toLowerCase().includes(searchWater.toLowerCase()))
-        || (searchBait == '' && searchRarity == '' && searchSpecies == '' && searchLocation == '' && searchWater == '')">
+        || (searchBait == '' && searchRarity == '' && searchFishgroup == '' && searchLocation == '' && searchWater == '')">
         <td>{{bait.bait}}</td>
         <td>{{bait.rarity}}</td>
-        <td>{{bait.species.join(", ")}}</td>
+        <td>{{bait.fishgroup.join(", ")}}</td>
         <td>{{bait.location.join(", ")}}</td>
         <td>{{bait.water}}</td>
       </tr>

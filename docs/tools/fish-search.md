@@ -14,6 +14,9 @@ const searchLocation = ref("")
 
 </script>
 
+# Fish Overview
+Here you can search fish species by their name, fish group, lifestyle, rarity or location.
+
 <table>
   <tbody>
     <tr>

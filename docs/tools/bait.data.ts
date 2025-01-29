@@ -4,7 +4,7 @@ export default {
       {
         "bait": "Worms",
         "rarity": "Common",
-        "species": [
+        "fishgroup": [
           "Panfishes",
           "Drums"
         ],
@@ -15,7 +15,7 @@ export default {
       {
         "bait": "Bread",
         "rarity": "Common",
-        "species": [
+        "fishgroup": [
           "Carps",
           "Minnows"
         ],
@@ -26,7 +26,7 @@ export default {
       {
         "bait": "Chicken Nugget",
         "rarity": "Rare",
-        "species": [
+        "fishgroup": [
           "Catfishes"
         ],
         "lifestyle": [],
@@ -36,7 +36,7 @@ export default {
       {
         "bait": "Minnow Live Bait",
         "rarity": "Rare",
-        "species": [
+        "fishgroup": [
           "Basses",
           "Pikes",
           "Perches"
@@ -48,7 +48,7 @@ export default {
       {
         "bait": "Shiner Live Bait",
         "rarity": "Rare",
-        "species": [
+        "fishgroup": [
           "Basses"
         ],
         "lifestyle": [],
@@ -58,7 +58,7 @@ export default {
       {
         "bait": "Trout Dough",
         "rarity": "Rare",
-        "species": [
+        "fishgroup": [
           "Trouts"
         ],
         "lifestyle": [],
@@ -68,7 +68,7 @@ export default {
       {
         "bait": "Cut Shad",
         "rarity": "Rare",
-        "species": [
+        "fishgroup": [
           "Catfishes"
         ],
         "lifestyle": [],
@@ -78,7 +78,7 @@ export default {
       {
         "bait": "Shad Live Bait",
         "rarity": "Epic",
-        "species": [
+        "fishgroup": [
           "Basses"
         ],
         "lifestyle": [],
@@ -88,7 +88,7 @@ export default {
       {
         "bait": "Chicken Liver",
         "rarity": "Epic",
-        "species": [
+        "fishgroup": [
           "Catfishes"
         ],
         "lifestyle": [],
@@ -98,7 +98,7 @@ export default {
       {
         "bait": "Cut Carp",
         "rarity": "Epic",
-        "species": [
+        "fishgroup": [
           "Catfishes",
           "Gars"
         ],
@@ -109,7 +109,7 @@ export default {
       {
         "bait": "Florida Crawfish",
         "rarity": "Epic",
-        "species": [
+        "fishgroup": [
           "Basses",
           "Drums",
           "Catfishes"
@@ -123,7 +123,7 @@ export default {
       {
         "bait": "Louisiana Crawfish",
         "rarity": "Epic",
-        "species": [
+        "fishgroup": [
           "Basses",
           "Drums",
           "Catfishes"
@@ -137,7 +137,7 @@ export default {
       {
         "bait": "Rusty Crawfish",
         "rarity": "Epic",
-        "species": [
+        "fishgroup": [
           "Basses",
           "Perches"
         ],
@@ -150,7 +150,7 @@ export default {
       {
         "bait": "Murray Crawfish",
         "rarity": "Legendary",
-        "species": [
+        "fishgroup": [
           "Cods"
         ],
         "lifestyle": [],
@@ -162,7 +162,7 @@ export default {
       {
         "bait": "Carp Head",
         "rarity": "Mythical",
-        "species": [
+        "fishgroup": [
           "Catfishes",
           "Gars"
         ],
@@ -173,7 +173,7 @@ export default {
       {
         "bait": "Small Cut Squid",
         "rarity": "Common",
-        "species": [
+        "fishgroup": [
           "Snappers",
           "Flatfishes",
           "Seabasses",
@@ -188,8 +188,8 @@ export default {
       },
       {
         "bait": "Sand Flea",
-        "rarity": "Commoon",
-        "species": [
+        "rarity": "Common",
+        "fishgroup": [
           "Jacks",
           "Seabreams",
           "Drums"
@@ -201,7 +201,7 @@ export default {
       {
         "bait": "Medium Cut Squid",
         "rarity": "Rare",
-        "species": [
+        "fishgroup": [
           "Mackerals",
           "Snooks",
           "Tarpons",
@@ -215,7 +215,7 @@ export default {
       {
         "bait": "Menhaden Live Bait",
         "rarity": "Rare",
-        "species": [
+        "fishgroup": [
           "Drums",
           "Seatrouts",
           "Snooks"
@@ -227,7 +227,7 @@ export default {
       {
         "bait": "Herring Live Bait",
         "rarity": "Rare",
-        "species": [
+        "fishgroup": [
           "Flatfishes",
           "Seabasses",
           "Cods"
@@ -239,7 +239,7 @@ export default {
       {
         "bait": "Cut Octopus",
         "rarity": "Rare",
-        "species": [],
+        "fishgroup": [],
         "lifestyle": ["Demersal"],
         "location": [],
         "water": "Saltwater"
@@ -247,7 +247,7 @@ export default {
       {
         "bait": "Cut Mullet",
         "rarity": "Epic",
-        "species": [
+        "fishgroup": [
           "Cobia",
           "Jacks",
           "Groupers"
@@ -259,7 +259,7 @@ export default {
       {
         "bait": "Large Cut Squid",
         "rarity": "Legendary",
-        "species": [
+        "fishgroup": [
           "Sharks",
           "Groupers",
           "Tunas"
@@ -271,7 +271,7 @@ export default {
       {
         "bait": "Ballyhoo Live Bait",
         "rarity": "Legendary",
-        "species": [
+        "fishgroup": [
           "Billfishes",
           "Tunas",
           "Mahi Mahis"
@@ -283,7 +283,7 @@ export default {
       {
         "bait": "Grass Shrimp",
         "rarity": "Common",
-        "species": [],
+        "fishgroup": [],
         "lifestyle": [],
         "location": [],
         "water": ""
@@ -291,7 +291,7 @@ export default {
       {
         "bait": "Crankbait: Tiger Craw",
         "rarity": "Rare",
-        "species": [
+        "fishgroup": [
           "Basses"
         ],
         "lifestyle": [],
@@ -301,7 +301,7 @@ export default {
       {
         "bait": "Crankbait: Sexy Shad",
         "rarity": "Rare",
-        "species": [
+        "fishgroup": [
           "Basses"
         ],
         "lifestyle": [],
@@ -311,7 +311,7 @@ export default {
       {
         "bait": "Roostertail: Fire Tiger",
         "rarity": "Rare",
-        "species": [
+        "fishgroup": [
           "Basses",
           "Panfishes",
           "Trouts",
@@ -325,7 +325,7 @@ export default {
       {
         "bait": "Frog: Dark Rainforest",
         "rarity": "Epic",
-        "species": [
+        "fishgroup": [
           "Basses"
         ],
         "lifestyle": [],
@@ -335,7 +335,7 @@ export default {
       {
         "bait": "Frog: Rainforest Yellow",
         "rarity": "Epic",
-        "species": [
+        "fishgroup": [
           "Basses"
         ],
         "lifestyle": [],
@@ -345,7 +345,7 @@ export default {
       {
         "bait": "Spinnerbait: White Shad",
         "rarity": "Legendary",
-        "species": [
+        "fishgroup": [
           "Basses"
         ],
         "lifestyle": [],
@@ -355,7 +355,7 @@ export default {
       {
         "bait": "Frog: Leopard",
         "rarity": "Legendary",
-        "species": [
+        "fishgroup": [
           "Basses"
         ],
         "lifestyle": [],

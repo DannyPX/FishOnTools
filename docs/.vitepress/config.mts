@@ -37,6 +37,10 @@ export default defineConfig({
             {
               text: 'Bait Overview',
               link: '/tools/bait-search'
+            },
+            {
+              text: 'Search Fish by Bait',
+              link: '/tools/fish-by-bait'
             }
           ]
         }
