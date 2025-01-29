@@ -19,8 +19,26 @@ export default defineConfig({
           link: '/tools/'
         },
         {
-          text: 'Pet Merge Calculator',
-          link: '/tools/pet-merge-calculator'
+          text: 'Pets',
+          items: [
+            {         
+              text: 'Pet Merge Calculator',
+              link: '/tools/pet-merge-calculator'
+            }
+          ]
+        },
+        {
+          text: 'Search',
+          items: [
+            {
+              text: 'Fish Overview',
+              link: '/tools/fish-search'
+            },
+            {
+              text: 'Bait Overview',
+              link: '/tools/bait-search'
+            }
+          ]
         }
       ]
     },
