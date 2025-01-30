@@ -43,6 +43,18 @@ export default defineConfig({
               link: '/tools/fish-by-bait'
             }
           ]
+        },
+        {
+          text: 'Character Sheet',
+          items: [
+            {
+              text: 'Armor Calculations',
+              link: '/tools/character/armor'
+            },
+            {
+              text: 'Luck Calculations WIP'
+            }
+          ]
         }
       ]
     },
