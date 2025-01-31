@@ -52,7 +52,8 @@ export default defineConfig({
               link: '/tools/character/armor'
             },
             {
-              text: 'Luck Calculations WIP'
+              text: 'Stat Calculations',
+              link: '/tools/character/stat'
             }
           ]
         }
@@ -62,5 +63,8 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/DannyPX/FishOnTools' }
     ],
+  },
+  markdown: {
+    math: true
   }
 })
