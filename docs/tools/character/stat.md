@@ -120,7 +120,7 @@ Base trophy chance is 1/15000
 
 The formula for trophy chance is:
 
-$trophy\ chance = 15000 - (15000 * trophy\ chance\ stat)$
+$trophy\ chance = 15000 - (15000 \times trophy\ chance\ stat)$
 
 ### Calculate Trophy Chance
 ::: info
