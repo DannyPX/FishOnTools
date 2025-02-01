@@ -67,10 +67,12 @@ export default defineConfig({
                   text: 'Scale (WIP)'
                 },
                 {
-                  text: 'Bite Speed (WIP)'
+                  text: 'Bite Speed',
+                  link: '/tools/character/bite_speed'
                 },
                 {
-                  text: 'Progress (Reel Speed) (WIP)'
+                  text: 'Progress (Reel Speed)',
+                  link: '/tools/character/progress'
                 },
                 {
                   text: 'Variant Chance',
