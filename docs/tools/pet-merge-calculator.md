@@ -127,7 +127,7 @@ This is a calculator for merging pets. The statistics that is used is from the W
         <div :class="$style.label">Luck:</div> <input :class="$style.inputBox" v-model="cluck2" type="number"/>
       </td>
       <td>
-        <div :class="$style.label">Luck:</div> <div v-if="rarity1 != '' && rarity1 == rarity2">{{ (((cluck1 + cluck2)/rarityMulti(rarity1))/2)*(rarityMulti(rarityUpgrade(rarity1))) }}</div> <div v-else>-</div>
+        <div :class="$style.label">Luck:</div> <div v-if="rarity1 != '' && rarity1 == rarity2">{{ ((((cluck1 + cluck2)/rarityMulti(rarity1))/2)*(rarityMulti(rarityUpgrade(rarity1)))).toFixed(2) }}</div> <div v-else>-</div>
       </td>
     </tr>
     <tr>
@@ -138,7 +138,7 @@ This is a calculator for merging pets. The statistics that is used is from the W
         <div :class="$style.label">Scale:</div> <input :class="$style.inputBox" v-model="cscale2" type="number"/>
       </td>
       <td>
-        <div :class="$style.label">Scale:</div> <div v-if="rarity1 != '' && rarity1 == rarity2">{{ (((cscale1 + cscale2)/rarityMulti(rarity1))/2)*(rarityMulti(rarityUpgrade(rarity1))) }}</div> <div v-else>-</div>
+        <div :class="$style.label">Scale:</div> <div v-if="rarity1 != '' && rarity1 == rarity2">{{ ((((cscale1 + cscale2)/rarityMulti(rarity1))/2)*(rarityMulti(rarityUpgrade(rarity1)))).toFixed(2) }}</div> <div v-else>-</div>
       </td>
     </tr>
     <!-- LOCATION -->
@@ -153,7 +153,7 @@ This is a calculator for merging pets. The statistics that is used is from the W
         <div :class="$style.label">Luck:</div> <input :class="$style.inputBox" v-model="lluck2" type="number"/>
       </td>
       <td>
-        <div :class="$style.label">Scale:</div> <div v-if="rarity1 != '' && rarity1 == rarity2">{{ (((lluck1 + lluck2)/rarityMulti(rarity1))/2)*(rarityMulti(rarityUpgrade(rarity1))) }}</div> <div v-else>-</div>
+        <div :class="$style.label">Scale:</div> <div v-if="rarity1 != '' && rarity1 == rarity2">{{ ((((lluck1 + lluck2)/rarityMulti(rarity1))/2)*(rarityMulti(rarityUpgrade(rarity1)))).toFixed(2) }}</div> <div v-else>-</div>
       </td>
     </tr>
     <tr>
@@ -164,19 +164,19 @@ This is a calculator for merging pets. The statistics that is used is from the W
         <div :class="$style.label">Scale:</div> <input :class="$style.inputBox" v-model="lscale2" type="number"/>
       </td>
       <td>
-        <div :class="$style.label">Scale:</div> <div v-if="rarity1 != '' && rarity1 == rarity2">{{ (((lscale1 + lscale2)/rarityMulti(rarity1))/2)*(rarityMulti(rarityUpgrade(rarity1))) }}</div> <div v-else>-</div>
+        <div :class="$style.label">Scale:</div> <div v-if="rarity1 != '' && rarity1 == rarity2">{{ ((((lscale1 + lscale2)/rarityMulti(rarity1))/2)*(rarityMulti(rarityUpgrade(rarity1)))).toFixed(2) }}</div> <div v-else>-</div>
       </td>
     </tr>
     <!-- RATING % -->
     <tr>
       <td>
-        <div :class="$style.label">Rating %:</div> {{ (cluck1 + cscale1 + lluck1 + lscale1)/rarityMulti(rarity1) }}%
+        <div :class="$style.label">Rating %:</div> {{ ((cluck1 + cscale1 + lluck1 + lscale1)/rarityMulti(rarity1)).toFixed(2) }}%
       </td>
       <td>
-        <div :class="$style.label">Rating %:</div> {{ (cluck2 + cscale2 + lluck2 + lscale2)/rarityMulti(rarity1) }}%
+        <div :class="$style.label">Rating %:</div> {{ ((cluck2 + cscale2 + lluck2 + lscale2)/rarityMulti(rarity1)).toFixed(2) }}%
       </td>
       <td>
-        <div :class="$style.label">Rating %:</div> <div v-if="rarity1 != '' && rarity1 == rarity2">{{ (((cluck1 + cscale1 + lluck1 + lscale1)/rarityMulti(rarity1))+((cluck2 + cscale2 + lluck2 + lscale2)/rarityMulti(rarity1)))/2 }}</div> <div v-else>-</div>
+        <div :class="$style.label">Rating %:</div> <div v-if="rarity1 != '' && rarity1 == rarity2">{{ ((((cluck1 + cscale1 + lluck1 + lscale1)/rarityMulti(rarity1))+((cluck2 + cscale2 + lluck2 + lscale2)/rarityMulti(rarity1)))/2).toFixed(2) }}</div> <div v-else>-</div>
       </td>
     </tr>
     <tr>
