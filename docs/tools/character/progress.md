@@ -45,3 +45,9 @@ You can get your total reel speed stat by combining all your rod parts reel spee
     </tr>
   </tbody>
 </table>
+
+::: info
+As it is still bit confusing what this unit means. Here is an example.
+
+If you have 600 Reel Speed, you reel in fish twice as fast.
+:::
