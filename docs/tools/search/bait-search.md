@@ -52,7 +52,6 @@ Here you can search baits by name, rarity, fish group, location or water type.
 ## Discrepancies
 
 - Small Cut Squid has `Flounders` listed in fish groups but isnt in the game. It should be `Flatfishes` but isnt fixed yet.
-- Small Cut Squid has `Grunts` listed in fish groups but has some discrepancies with `Grunters` and `Grunts` on some fishes.
 - Bread has `Eurasian Minnows` listed in fish groups but has some discrepancies with `Eurasian Minnows` and `Eurasian+Minnows` on some fishes.
 
 <style module>

@@ -651,7 +651,7 @@ export default {
       },
       {
           "species": "White Grunt",
-          "fishgroup": "Grunts (Grunters)",
+          "fishgroup": "Grunts",
           "lifestyle": "Reef",
           "rarity": "Common",
           "location": "Key West",

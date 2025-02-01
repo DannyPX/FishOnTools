@@ -177,7 +177,7 @@ export default {
           "Snappers",
           "Flounders (Flatfishes)",
           "Seabasses",
-          "Grunts (Grunters)",
+          "Grunts",
           "Jacks",
           "Seabreams",
           "Mullets"
