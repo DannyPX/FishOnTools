@@ -53,7 +53,30 @@ export default defineConfig({
             },
             {
               text: 'Stat Calculations',
-              link: '/tools/character/stat'
+              collapsed: false,
+              items: [
+                {
+                  text: 'Prospect',
+                  link: '/tools/character/prospect'
+                },
+                {
+                  text: 'Luck',
+                  link: '/tools/character/luck'
+                },
+                {
+                  text: 'Scale (WIP)'
+                },
+                {
+                  text: 'Bite Speed (WIP)'
+                },
+                {
+                  text: 'Progress (Reel Speed) (WIP)'
+                },
+                {
+                  text: 'Variant Chance',
+                  link: '/tools/character/variant'
+                }
+              ]
             }
           ]
         }
