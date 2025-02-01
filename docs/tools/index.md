@@ -18,4 +18,8 @@ These are the tools that are currently available
 |Bait Overview        |[🔗](./bait-search.md)          |
 |Search Fish by Bait  |[🔗](./fish-by-bait.md)         |
 |Armor Calculations   |[🔗](./character/armor.md)      |
-|Stat Calculations    |[🔗](./character/stat.md)       |
+|Prospect Calculations    |[🔗](./character/prospect.md)       |
+|Luck Calculations    |[🔗](./character/luck.md)       |
+|Bite Speed Calculations    |[🔗](./character/bite_speed.md)       |
+|Progress Calculations    |[🔗](./character/progress.md)       |
+|Variant Chance Calculations    |[🔗](./character/variant.md)       |
