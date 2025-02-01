@@ -50,6 +50,19 @@ Here you can search fish species by their name, fish group, lifestyle, rarity or
   </tbody>
 </table>
 
+## Discrepancies
+
+- Hasu is listed as `Eurasian+Minnows` but has discrepancies with `Eurasian+Minnows` and `Eurasian Minnows` on some other fishes
+- White Bream is listed as `Eurasian+Minnows` but has discrepancies with `Eurasian+Minnows` and `Eurasian Minnows` on some other fishes
+- Roach is listed as `Eurasian+Minnows` but has discrepancies with `Eurasian+Minnows` and `Eurasian Minnows` on some other fishes
+- Sichel is listed as `Eurasian+Minnows` but has discrepancies with `Eurasian+Minnows` and `Eurasian Minnows` on some other fishes
+- Tench is listed as `Eurasian Minnows` but has discrepancies with `Eurasian+Minnows` and `Eurasian Minnows` on some other fishes
+- Freshwater Bream is listed as `Eurasian+Minnows` but has discrepancies with `Eurasian+Minnows` and `Eurasian Minnows` on some other fishes
+- Asp is listed as `Eurasian+Minnows` but has discrepancies with `Eurasian+Minnows` and `Eurasian Minnows` on some other fishes
+- White Grunt is listed as `Grunts` but has discrepancies with `Grunts` and `Grunters` on some other fishes
+- Spangled Perch is listed as `Grunters` but has discrepancies with `Grunts` and `Grunters` on some other fishes
+- Silver Perch is listed as `Grunters` but has discrepancies with `Grunts` and `Grunters` on some other fishes
+
 <style module>
   .inputBox {
     border: 1px solid var(--vp-c-default-1);

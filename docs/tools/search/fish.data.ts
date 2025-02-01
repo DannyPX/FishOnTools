@@ -291,7 +291,7 @@ export default {
       },
       {
           "species": "Hasu",
-          "fishgroup": "Minnows",
+          "fishgroup": "Eurasian+Minnows (Minnows)",
           "lifestyle": "Benthopelagic",
           "rarity": "Common",
           "location": "Lake Biwa",
@@ -651,7 +651,7 @@ export default {
       },
       {
           "species": "White Grunt",
-          "fishgroup": "Grunters",
+          "fishgroup": "Grunts (Grunters)",
           "lifestyle": "Reef",
           "rarity": "Common",
           "location": "Key West",
@@ -858,7 +858,7 @@ export default {
       },
       {
           "species": "Mahi Mahi",
-          "fishgroup": "Mahi Mahis",
+          "fishgroup": "Mahimahis",
           "lifestyle": "Pelagic",
           "rarity": "Legendary",
           "location": "Key West",
@@ -1353,7 +1353,7 @@ export default {
       },
       {
           "species": "White Bream",
-          "fishgroup": "Minnows",
+          "fishgroup": "Eurasian+Minnows (Minnows)",
           "lifestyle": "Demersal",
           "rarity": "Common",
           "location": "Danube River",
@@ -1362,7 +1362,7 @@ export default {
       },
       {
           "species": "Roach",
-          "fishgroup": "Minnows",
+          "fishgroup": "Eurasian+Minnows (Minnows)",
           "lifestyle": "Benthopelagic",
           "rarity": "Common",
           "location": "Danube River",
@@ -1380,7 +1380,7 @@ export default {
       },
       {
           "species": "Sichel",
-          "fishgroup": "Minnows",
+          "fishgroup": "Eurasian+Minnows (Minnows)",
           "lifestyle": "Pelagic",
           "rarity": "Common",
           "location": "Danube River",
@@ -1398,7 +1398,7 @@ export default {
       },
       {
           "species": "Tench",
-          "fishgroup": "Minnows",
+          "fishgroup": "Eurasian Minnows (Minnows)",
           "lifestyle": "Demersal",
           "rarity": "Rare",
           "location": "Danube River",
@@ -1407,7 +1407,7 @@ export default {
       },
       {
           "species": "Freshwater Bream",
-          "fishgroup": "Minnows",
+          "fishgroup": "Eurasian+Minnows (Minnows)",
           "lifestyle": "Benthopelagic",
           "rarity": "Rare",
           "location": "Danube River",
@@ -1434,7 +1434,7 @@ export default {
       },
       {
           "species": "Asp",
-          "fishgroup": "Minnows",
+          "fishgroup": "Eurasian+Minnows (Minnows)",
           "lifestyle": "Benthopelagic",
           "rarity": "Epic",
           "location": "Danube River",

@@ -32,15 +32,15 @@ export default defineConfig({
           items: [
             {
               text: 'Fish Overview',
-              link: '/tools/fish-search'
+              link: '/tools/search/fish-search'
             },
             {
               text: 'Bait Overview',
-              link: '/tools/bait-search'
+              link: '/tools/search/bait-search'
             },
             {
               text: 'Search Fish by Bait',
-              link: '/tools/fish-by-bait'
+              link: '/tools/search/fish-by-bait'
             }
           ]
         },

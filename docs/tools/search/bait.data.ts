@@ -17,7 +17,7 @@ export default {
         "rarity": "Common",
         "fishgroup": [
           "Carps",
-          "Minnows"
+          "Eurasian Minnows (Minnows)"
         ],
         "lifestyle": [],
         "location": [],
@@ -175,9 +175,9 @@ export default {
         "rarity": "Common",
         "fishgroup": [
           "Snappers",
-          "Flatfishes",
+          "Flounders (Flatfishes)",
           "Seabasses",
-          "Grunters",
+          "Grunts (Grunters)",
           "Jacks",
           "Seabreams",
           "Mullets"
@@ -274,7 +274,7 @@ export default {
         "fishgroup": [
           "Billfishes",
           "Tunas",
-          "Mahi Mahis"
+          "Mahimahis"
         ],
         "lifestyle": [],
         "location": [],

@@ -14,9 +14,9 @@ These are the tools that are currently available
 |Tool                 |Link                            |
 | ------------------- |:------------------------------:|
 |Pet Merge Calculator |[🔗](./pet-merge-calculator.md) |
-|Fish Overview        |[🔗](./fish-search.md)          |
-|Bait Overview        |[🔗](./bait-search.md)          |
-|Search Fish by Bait  |[🔗](./fish-by-bait.md)         |
+|Fish Overview        |[🔗](./search/fish-search.md)          |
+|Bait Overview        |[🔗](./search/bait-search.md)          |
+|Search Fish by Bait  |[🔗](./search/fish-by-bait.md)         |
 |Armor Calculations   |[🔗](./character/armor.md)      |
 |Prospect Calculations    |[🔗](./character/prospect.md)       |
 |Luck Calculations    |[🔗](./character/luck.md)       |
