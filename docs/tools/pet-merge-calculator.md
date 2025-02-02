@@ -79,7 +79,7 @@ function rarityUpgrade(value) {
 
 # Pet Merge Calculator
 
-This is a calculator for merging pets. The statistics that is used is from the Wiki and help from some community members notably jsmall0126 and Dermatosclerosis
+This is a calculator for merging pets. The statistics that is used is from the Wiki and help from some community members.
 
 ## Calculator
 
