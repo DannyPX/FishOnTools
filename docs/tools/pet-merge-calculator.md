@@ -38,23 +38,23 @@ function rarityMulti(value) {
 
 function rarityValue(value) {
   switch (true) {
-    case (value <= 9):
+    case (value < 10):
       return "Awful";
-    case (value <= 19):
+    case (value < 20):
       return "Bad";
-    case (value <= 34):
+    case (value < 35):
       return "Below Average";
-    case (value <= 49):
+    case (value < 50):
       return "Average";
-    case (value <= 59):
+    case (value < 60):
       return "Good";
-    case (value <= 79):
+    case (value < 80):
       return "Great";
-    case (value <= 89):
+    case (value < 90):
       return "Excellent";
-    case (value <= 99):
+    case (value < 100):
       return "Amazing";
-    case (value <= 100):
+    case (value < 101):
       return "Perfect";
     default:
       return "Wrong Rarity Selected";
