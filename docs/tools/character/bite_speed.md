@@ -49,5 +49,9 @@ You can get your total bite speed stat by combining all your rod parts bite spee
       <td>Min Bite Speed</td>
       <td>{{ (10 - (10*(bitespeed/1000))).toFixed(2) }} seconds</td>
     </tr>
+    <tr>
+      <td>Avg. Bite Speed</td>
+      <td>{{ (((20 - (20*(bitespeed/1000))) + (10 - (10*(bitespeed/1000))))/2).toFixed(2) }} seconds</td>
+    </tr>
   </tbody>
 </table>
