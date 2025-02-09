@@ -30,7 +30,7 @@ Base trophy chance is 1/15000.
 
 The formula for trophy chance is:
 
-$trophy\ chance = 15000 - (15000 \times trophy\ chance\ stat)$
+$$1 \over trophy\ chance = 15000 - (15000 \times trophy\ chance\ stat)$$
 
 ### Calculate Trophy Chance
 ::: info
@@ -55,7 +55,7 @@ Base melanistic chance is 1/10000.
 
 The formula for melanistic chance is:
 
-$melanistic\ chance = 10000 - (10000 \times melanistic\ chance\ stat)$
+$$1 \over melanistic\ chance = 10000 - (10000 \times melanistic\ chance\ stat)$$
 
 ### Calculate Melanistic Chance
 ::: info
@@ -80,7 +80,7 @@ Base albino chance is 1/5000.
 
 The formula for albino chance is:
 
-$albino\ chance = 5000 - (5000 \times albino\ chance\ stat)$
+$$1 \over albino\ chance = 5000 - (5000 \times albino\ chance\ stat)$$
 
 ### Calculate Albino Chance
 ::: info
