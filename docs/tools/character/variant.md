@@ -50,7 +50,7 @@ You can get your total trophy chance stat by combining all your armor trophy cha
 </table>
 
 ## Melanistic Chance
-Melanistic chance is the chance to catch a melanistic fish. Currently the shard for it has no use.
+Melanistic chance is the chance to catch a melanistic fish. Currently the shard for it is only used for Onyx RX rod parts(See [wiki](https://wiki.fishonmc.net/wiki/List_Of_Rod_Parts)).
 Base melanistic chance is 1/10000.
 
 The formula for melanistic chance is:
@@ -59,7 +59,7 @@ $$1 \over melanistic\ chance = 10000 - (10000 \times melanistic\ chance\ stat)$$
 
 ### Calculate Melanistic Chance
 ::: info
-You can get your total melanistic chance stat by combining all your armor melanistic chance together
+You can get your total melanistic chance stat by combining all your armor melanistic chance and rod part melanistic chance together
 :::
 
 <table>
@@ -75,7 +75,7 @@ You can get your total melanistic chance stat by combining all your armor melani
 </table>
 
 ## Albino Chance
-Albino chance is the chance to catch a albino fish. Currently the shard for it has no use.
+Albino chance is the chance to catch a albino fish. Currently the shard for it is only used for Ivory RX rod parts(See [wiki](https://wiki.fishonmc.net/wiki/List_Of_Rod_Parts)).
 Base albino chance is 1/5000.
 
 The formula for albino chance is:
@@ -84,7 +84,7 @@ $$1 \over albino\ chance = 5000 - (5000 \times albino\ chance\ stat)$$
 
 ### Calculate Albino Chance
 ::: info
-You can get your total albino chance stat by combining all your armor albino chance together
+You can get your total albino chance stat by combining all your armor albino chance and rod part albino chance together
 :::
 
 <table>
