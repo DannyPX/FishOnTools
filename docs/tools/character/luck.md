@@ -39,7 +39,7 @@ The formula for luck for each rarity:
 |Rare|$(30 + (Luck \times 0.002)) \times 0.01$|
 |Epic|$(10 + (Luck \times 0.004)) \times 0.01$|
 |Legendary|$(4 + (Luck \times 0.006)) \times 0.01$|
-|Legendary|$(1 + (Luck \times 0.008)) \times 0.01$|
+|Mythical|$(1 + (Luck \times 0.008)) \times 0.01$|
 
 ## Calculate Luck Chance (Without baits/lures)
 ::: info
