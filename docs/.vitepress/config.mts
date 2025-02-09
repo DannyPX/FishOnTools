@@ -23,7 +23,11 @@ export default defineConfig({
           items: [
             {         
               text: 'Pet Merge Calculator',
-              link: '/tools/pet-merge-calculator'
+              link: '/tools/pets/pet-merge-calculator'
+            },
+            {
+              text: 'Pet Rating',
+              link: '/tools/pets/pet-rating'
             }
           ]
         },

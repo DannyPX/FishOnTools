@@ -13,7 +13,8 @@ This website holds all of my tools and resources that I made over the season of 
 These are the tools that are currently available
 |Tool                 |Link                            |
 | ------------------- |:------------------------------:|
-|Pet Merge Calculator |[🔗](./pet-merge-calculator.md) |
+|Pet Merge Calculator |[🔗](./pets/pet-merge-calculator.md) |
+|Pet Rating Calculator|[🔗](./pets/pet-rating.md)|
 |Fish Overview        |[🔗](./search/fish-search.md)          |
 |Bait Overview        |[🔗](./search/bait-search.md)          |
 |Search Fish by Bait  |[🔗](./search/fish-by-bait.md)         |

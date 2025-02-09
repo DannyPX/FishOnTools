@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Pet Merge Calculator
-      link: /tools/pet-merge-calculator
+      link: /tools/pets/pet-merge-calculator
     - theme: alt
       text: Search Fish
       link: /tools/search/fish-search

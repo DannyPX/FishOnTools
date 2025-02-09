@@ -190,7 +190,6 @@ This is a calculator for merging pets. The statistics that is used is from the W
         <div :class="$style.label">Rating:</div> <div v-if="rarity1 != '' && rarity1 == rarity2">{{ rarityValue((((cluck1 + cscale1 + lluck1 + lscale1)/rarityMulti(rarity1))+((cluck2 + cscale2 + lluck2 + lscale2)/rarityMulti(rarity1)))/2) }}</div> <div v-else>-</div>
       </td>
     </tr>
-    <!-- RATING -->
   </tbody>
 </table>
 
