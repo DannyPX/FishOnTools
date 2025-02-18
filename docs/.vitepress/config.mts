@@ -68,7 +68,8 @@ export default defineConfig({
                   link: '/tools/character/luck'
                 },
                 {
-                  text: 'Scale (WIP)'
+                  text: 'Scale',
+                  link: '/tools/character/scale'
                 },
                 {
                   text: 'Bite Speed',
