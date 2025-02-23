@@ -150,6 +150,7 @@ $$ climate\ luck + climate\ scale + location\ luck + location\ scale \over rarit
           <option>Rare</option>
           <option>Epic</option>
           <option>Legendary</option>
+          <option>Mythical</option>
         </select>
       </td>
     </tr>
@@ -184,12 +185,12 @@ $$ climate\ luck + climate\ scale + location\ luck + location\ scale \over rarit
     </tr>
     <tr>
       <td>
-        <div :class="$style.label">Rating %:</div> {{ ((cluck + cscale + lluck + lscale)/rarityMulti(rarity1)).toFixed(2) }}%
+        <div :class="$style.label">Rating %:</div> {{ ((cluck + cscale + lluck + lscale)/rarityMulti(rarity)).toFixed(2) }}%
       </td>
     </tr>
     <tr>
       <td>
-        <div :class="$style.label">Rating:</div> {{ rarityValue((cluck + cscale + lluck + lscale)/rarityMulti(rarity1)) }}
+        <div :class="$style.label">Rating:</div> {{ rarityValue((cluck + cscale + lluck + lscale)/rarityMulti(rarity)) }}
       </td>
     </tr>
   </tbody>
