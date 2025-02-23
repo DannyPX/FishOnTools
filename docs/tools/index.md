@@ -21,6 +21,7 @@ These are the tools that are currently available
 |Armor Calculations   |[🔗](./character/armor.md)      |
 |Prospect Calculations    |[🔗](./character/prospect.md)       |
 |Luck Calculations    |[🔗](./character/luck.md)       |
+|Scale Calculations    |[🔗](./character/scale.md)       |
 |Bite Speed Calculations    |[🔗](./character/bite_speed.md)       |
 |Progress Calculations    |[🔗](./character/progress.md)       |
 |Variant Chance Calculations    |[🔗](./character/variant.md)       |

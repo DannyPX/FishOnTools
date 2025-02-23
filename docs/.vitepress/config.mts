@@ -86,6 +86,26 @@ export default defineConfig({
               ]
             }
           ]
+        },
+        {
+          text: 'Events',
+          items: [
+            {
+              text: 'Current Events',
+              collapsed: false,
+              items: [
+                {
+                  text: 'Winter Event (2025)',
+                  link: '/tools/events/zombie'
+                }
+              ]
+            },
+            {
+              text: 'Past Events',
+              collapsed: false,
+              items: []
+            }
+          ]
         }
       ]
     },
