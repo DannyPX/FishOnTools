@@ -11,13 +11,9 @@ outline: deep
   const scaleBoost = ref(false)
   const eventBoost = ref(false)
 
-  function boostMultiplier(boost) {
-    return boost ? 2 : 1
-  }
-
   function salmonZombie() {
-    let luckc = luck.value * boostMultiplier(luckBoost.value)
-    let scalec = scale.value * boostMultiplier(scaleBoost.value)
+    let luckc = luck.value
+    let scalec = scale.value
     let r = (30+(luckc*0.002))*0.01
     let e = (10+(luckc*0.004))*0.01
     let l = (4+(luckc*0.006))*0.01
@@ -84,18 +80,20 @@ Check rarity chances over at [Luck](../character/luck.md)
 
 ## Calculate Zombie variant chances
 
+::: info
+You can get your scale/luck stat by going to your stat page (`/stats`) and hover over your player head. Do note that values can vary whenever there is a luck/scale boost activated.
+:::
+
 <table>
   <tbody>
     <tr>
-      <th colspan="3"><div :class="$style.label">Luck (Luck without booster):</div><input :class="$style.inputBox" v-model="luck" type="number"/></th>
+      <th colspan="3"><div :class="$style.label">Luck:</div><input :class="$style.inputBox" v-model="luck" type="number"/></th>
     </tr>
     <tr>
-      <th colspan="3"><div :class="$style.label">Scale (Scale without booster):</div><input :class="$style.inputBox" v-model="scale" type="number"/></th>
+      <th colspan="3"><div :class="$style.label">Scale:</div><input :class="$style.inputBox" v-model="scale" type="number"/></th>
     </tr>
     <tr>
-      <th><div :class="$style.label">Luck Booster:</div><input :class="$style.inputBox" v-model="luckBoost" type="checkbox"/></th>
-      <th><div :class="$style.label">Scale Booster:</div><input :class="$style.inputBox" v-model="scaleBoost" type="checkbox"/></th>
-      <th><div :class="$style.label">Event Booster:</div><input :class="$style.inputBox" v-model="eventBoost" type="checkbox"/></th>
+      <th colspan="3"><div :class="$style.label">Event Booster:</div><input :class="$style.inputBox" v-model="eventBoost" type="checkbox"/></th>
     </tr>
     <tr>
       <td colspan="3" :class="$style.tableTitle">Result</td>
