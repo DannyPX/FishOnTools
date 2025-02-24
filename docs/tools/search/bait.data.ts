@@ -361,6 +361,26 @@ export default {
         "lifestyle": [],
         "location": [],
         "water": "Freshwater"
+      },
+      {
+        "bait": "Pink Salmon Roe",
+        "rarity": "Common",
+        "fishgroup": [
+          "Salmon"
+        ],
+        "lifestyle": [],
+        "location": [],
+        "water": "Freshwater"
+      },
+      {
+        "bait": "Chinook Salmon Roe",
+        "rarity": "Epic",
+        "fishgroup": [
+          "Salmon"
+        ],
+        "lifestyle": [],
+        "location": [],
+        "water": "Freshwater"
       }
     ]
   }
