@@ -93,17 +93,17 @@ export default defineConfig({
             {
               text: 'Current Events',
               collapsed: false,
+              items: [              ]
+            },
+            {
+              text: 'Past Events',
+              collapsed: false,
               items: [
                 {
                   text: 'Winter Event (2025)',
                   link: '/tools/events/zombie'
                 }
               ]
-            },
-            {
-              text: 'Past Events',
-              collapsed: false,
-              items: []
             }
           ]
         }

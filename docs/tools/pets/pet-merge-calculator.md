@@ -243,6 +243,10 @@ These values are not 100%, as we cannot see decimals in game. Could be off by 2~
   </tbody>
 </table>
 
+::: info
+Awful and Bad is not in the game.
+:::
+
 <style module>
   table { 
     margin: 0px auto; 

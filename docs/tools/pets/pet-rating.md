@@ -104,6 +104,10 @@ Below is the table for every rating.
   </tbody>
 </table>
 
+::: info
+Awful and Bad is not in the game.
+:::
+
 The formula to calculate your pet rating percentage is:
 
 $$ climate\ luck + climate\ scale + location\ luck + location\ scale \over rarity\ multiplier $$

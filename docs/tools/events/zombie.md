@@ -67,7 +67,7 @@ const format = num => String(num).replace(/(?<!\..*)(\d)(?=(?:\d{3})+(?:\.|$))/g
 </style>
 
 # Winter Event (2025)
-The Winter 2025 Event is a week long fishing event located in Kenai River. During the event you could fish for an unique variant known as Zombie Fish. This special variant is only applied to salmon at the Kenai River.
+The Winter 2025 Event was a week long fishing event located in Kenai River. During the event you could fish for an unique variant known as Zombie Fish. This special variant is only applied to salmon at the Kenai River.
 The base chance for a Zombie variant is 1/50. Do note its a 1/50 chance for a salmon to be a Zombie, so add salmon chances.
 
 Formula for Salmon Zombie chance is:
