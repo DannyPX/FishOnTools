@@ -153,7 +153,7 @@ This is a calculator for merging pets. The statistics that is used is from the W
         <div :class="$style.label">Luck:</div> <input :class="$style.inputBox" v-model="lluck2" type="number"/>
       </td>
       <td>
-        <div :class="$style.label">Scale:</div> <div v-if="rarity1 != '' && rarity1 == rarity2">{{ ((((lluck1 + lluck2)/rarityMulti(rarity1))/2)*(rarityMulti(rarityUpgrade(rarity1)))).toFixed(2) }}</div> <div v-else>-</div>
+        <div :class="$style.label">Luck:</div> <div v-if="rarity1 != '' && rarity1 == rarity2">{{ ((((lluck1 + lluck2)/rarityMulti(rarity1))/2)*(rarityMulti(rarityUpgrade(rarity1)))).toFixed(2) }}</div> <div v-else>-</div>
       </td>
     </tr>
     <tr>
