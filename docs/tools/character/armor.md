@@ -22,7 +22,7 @@ outline: deep
     leggings: {
       luck: 40,
       scale: 40,
-      prospect: 25
+      prospect: 30
     },
     boots: {
       luck: 25,
