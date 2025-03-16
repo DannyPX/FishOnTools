@@ -36,7 +36,7 @@ Here you can search fish species by their name, fish group, lifestyle, rarity or
     <template v-for="fish in data">
       <tr v-if="(fish.species.toLowerCase().includes(searchSpecies.toLowerCase()) 
         && fish.fishgroup.toLowerCase().includes(searchFishgroup.toLowerCase())
-        && fish.lifestyle.toLowerCase().includes(searchLifestyle.toLowerCase())
+        && fish.lifestyle.includes(searchLifestyle)
         && fish.rarity.toLowerCase().includes(searchRarity.toLowerCase())
         && fish.location.toLowerCase().includes(searchLocation.toLowerCase()))
         || (searchSpecies == '' && searchFishgroup == '' && searchLifestyle == '' && searchRarity == '' && searchLocation == '')">
