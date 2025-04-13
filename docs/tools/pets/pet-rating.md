@@ -31,11 +31,11 @@ function rarityMulti(value) {
 
 function rarityValue(value) {
   switch (true) {
-    case (value < 10):
-      return "Awful";
-    case (value < 20):
+    case (value < 20.1):
+      return "Sickly";
+    case (value < 30):
       return "Bad";
-    case (value < 35):
+    case (value < 40):
       return "Below Average";
     case (value < 50):
       return "Average";
@@ -66,20 +66,20 @@ Below is the table for every rating.
       <th>Rating %</th>
     </tr>
     <tr>
-      <td>Awful</td>
-      <td>0% - 9%</td>
+      <td>Sickly</td>
+      <td>20%</td>
     </tr>
     <tr>
       <td>Bad</td>
-      <td>10% - 19%</td>
+      <td>20% - 29%</td>
     </tr>
     <tr>
       <td>Below Average</td>
-      <td>20% - 34%</td>
+      <td>30% - 39%</td>
     </tr>
     <tr>
       <td>Average</td>
-      <td>35% - 49%</td>
+      <td>40% - 49%</td>
     </tr>
     <tr>
       <td>Good</td>
