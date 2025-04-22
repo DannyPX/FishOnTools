@@ -749,6 +749,15 @@ export default {
           "water": "Saltwater"
       },
       {
+          "species": "Hogfish",
+          "fishgroup": "Wrasses",
+          "lifestyle": "Reef",
+          "rarity": "Rare",
+          "location": "Key West",
+          "climate": "Savanna",
+          "water": "Saltwater"
+      },
+      {
           "species": "Bonnethead Shark",
           "fishgroup": "Sharks",
           "lifestyle": "Reef",
