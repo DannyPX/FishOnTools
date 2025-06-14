@@ -435,7 +435,7 @@ export default {
       },
       {
           "species": "Two-Spined Blackfish",
-          "fishgroup": "Perches",
+          "fishgroup": "Temperate Perches",
           "lifestyle": "Demersal",
           "rarity": "Common",
           "location": "Murray River",
@@ -453,7 +453,7 @@ export default {
       },
       {
           "species": "Macquarie Perch",
-          "fishgroup": "Perches",
+          "fishgroup": "Temperate Perches",
           "lifestyle": "Benthopelagic",
           "rarity": "Rare",
           "location": "Murray River",
@@ -471,7 +471,7 @@ export default {
       },
       {
           "species": "Australian Bass",
-          "fishgroup": "Perches",
+          "fishgroup": "Temperate Perches",
           "lifestyle": "Demersal",
           "rarity": "Rare",
           "location": "Murray River",
@@ -489,7 +489,7 @@ export default {
       },
       {
           "species": "Estuary Perch",
-          "fishgroup": "Perches",
+          "fishgroup": "Temperate Perches",
           "lifestyle": "Demersal",
           "rarity": "Epic",
           "location": "Murray River",
@@ -507,7 +507,7 @@ export default {
       },
       {
           "species": "Golden Perch",
-          "fishgroup": "Perches",
+          "fishgroup": "Temperate Perches",
           "lifestyle": "Demersal",
           "rarity": "Legendary",
           "location": "Murray River",
