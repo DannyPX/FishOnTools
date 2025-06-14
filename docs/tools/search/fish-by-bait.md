@@ -31,6 +31,10 @@ function onBaitChange() {
 }
 </script>
 
+::: warning
+Outdated since 2025/06/14
+:::
+
 # Search Fish by Bait
 Look up what fishes can be caught by bait.
 

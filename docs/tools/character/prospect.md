@@ -20,6 +20,10 @@ outline: deep
   }
 </style>
 
+::: warning
+Outdated since 2025/06/14
+:::
+
 # Prospect
 Prospect is a stat that increases shard chance.
 Base prospect chance is 1/50.

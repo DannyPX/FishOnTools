@@ -22,6 +22,10 @@ outline: deep
   }
 </style>
 
+::: warning
+Outdated since 2025/06/14
+:::
+
 # Variant Chance
 
 ## Trophy Chance
