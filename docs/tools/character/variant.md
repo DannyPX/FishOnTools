@@ -25,7 +25,7 @@ outline: deep
 # Variant Chance
 
 ## Trophy Chance
-Trophy chance is the chance to catch a trophy fish. Currently the shard for it is only used for Midas RX rod parts (See [wiki](https://wiki.fishonmc.net/wiki/List_Of_Rod_Parts)).
+Trophy chance is the chance to catch a trophy fish. Currently the shard for it is only used for Midas RX rod parts (See [wiki](https://wiki.fishonmc.net/doku.php?id=rodparts)).
 Base trophy chance is 1/15000.
 
 The formula for trophy chance is:
@@ -50,7 +50,7 @@ You can get your total trophy chance stat by combining all your armor trophy cha
 </table>
 
 ## Melanistic Chance
-Melanistic chance is the chance to catch a melanistic fish. Currently the shard for it is only used for Onyx RX rod parts(See [wiki](https://wiki.fishonmc.net/wiki/List_Of_Rod_Parts)).
+Melanistic chance is the chance to catch a melanistic fish. Currently the shard for it is only used for Onyx RX rod parts(See [wiki](https://wiki.fishonmc.net/doku.php?id=rodparts)).
 Base melanistic chance is 1/10000.
 
 The formula for melanistic chance is:
@@ -75,7 +75,7 @@ You can get your total melanistic chance stat by combining all your armor melani
 </table>
 
 ## Albino Chance
-Albino chance is the chance to catch a albino fish. Currently the shard for it is only used for Ivory RX rod parts(See [wiki](https://wiki.fishonmc.net/wiki/List_Of_Rod_Parts)).
+Albino chance is the chance to catch a albino fish. Currently the shard for it is only used for Ivory RX rod parts(See [wiki](https://wiki.fishonmc.net/doku.php?id=rodparts)).
 Base albino chance is 1/5000.
 
 The formula for albino chance is:
