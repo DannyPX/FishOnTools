@@ -20,16 +20,12 @@ outline: deep
   }
 </style>
 
-::: warning
-Outdated since 2025/06/14
-:::
-
 # Prospect
 Prospect is a stat that increases shard chance.
 Base prospect chance is 1/50.
 
 The formula for prospect chance is:
-$$prospect\ chance = {1 \over 50 - (50 \times (0.0005 \times Prospect))}$$ 
+$$prospect\ chance = {50 \over 1 + (Prospect \times 0.0008)}$$ 
 
 ## Calculate Prospect Chance
 ::: info
@@ -43,7 +39,7 @@ You can get your total prospect stat by combining all your armor prospect stat a
     </tr>
     <tr>
       <td>Prospect Chance</td>
-      <td>1 / {{ (50 - (50 * (0.0005 * prospect))).toFixed(2) }}</td>
+      <td>1 / {{ (50 / (1 + (prospect * 0.0008))).toFixed(2) }}</td>
     </tr>
   </tbody>
 </table>

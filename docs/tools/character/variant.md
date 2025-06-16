@@ -22,10 +22,6 @@ outline: deep
   }
 </style>
 
-::: warning
-Outdated since 2025/06/14
-:::
-
 # Variant Chance
 
 ## Trophy Chance
@@ -34,7 +30,7 @@ Base trophy chance is 1/15000.
 
 The formula for trophy chance is:
 
-$$trophy\ chance = {1 \over 15000 - (15000 \times trophy\ chance\ stat)}$$
+$$trophy\ chance = {15000 \over 1 + (trophy\ chance\ stat\ /\ 100)}$$
 
 ### Calculate Trophy Chance
 ::: info
@@ -48,7 +44,7 @@ You can get your total trophy chance stat by combining all your armor trophy cha
     </tr>
     <tr>
       <td>Trophy Chance</td>
-      <td>1 / {{ (15000 - (15000 * (trophy * 0.01))).toFixed(0) }}</td>
+      <td>1 / {{ (15000 / (1 + ((trophy) / 100))).toFixed(0) }}</td>
     </tr>
   </tbody>
 </table>
@@ -59,7 +55,7 @@ Base melanistic chance is 1/10000.
 
 The formula for melanistic chance is:
 
-$$melanistic\ chance = {1 \over 10000 - (10000 \times melanistic\ chance\ stat)}$$
+$$melanistic\ chance = {10000 \over 1 + (melanistic\ chance\ stat\ /\ 100)}$$
 
 ### Calculate Melanistic Chance
 ::: info
@@ -73,7 +69,7 @@ You can get your total melanistic chance stat by combining all your armor melani
     </tr>
     <tr>
       <td>Melanistic Chance</td>
-      <td>1 / {{ (10000 - (10000 * (melanistic * 0.01))).toFixed(0) }}</td>
+      <td>1 / {{ (10000 / (1 + ((melanistic) / 100))).toFixed(0) }}</td>
     </tr>
   </tbody>
 </table>
@@ -84,7 +80,7 @@ Base albino chance is 1/5000.
 
 The formula for albino chance is:
 
-$$albino\ chance = {1 \over 5000 - (5000 \times albino\ chance\ stat)}$$
+$$albino\ chance = {5000 \over 1 + (albino\ chance\ stat\ /\ 100)}$$
 
 ### Calculate Albino Chance
 ::: info
@@ -98,7 +94,7 @@ You can get your total albino chance stat by combining all your armor albino cha
     </tr>
     <tr>
       <td>Albino Chance</td>
-      <td>1 / {{ (5000 - (5000 * (albino * 0.01))).toFixed(0) }}</td>
+      <td>1 / {{ (5000 / (1 + ((albino) / 100))).toFixed(0) }}</td>
     </tr>
   </tbody>
 </table>
