@@ -28,8 +28,7 @@ Base scale chances are in this table below:
 | Baby       |   20% (0.20)   |
 | Juvenile   |   40% (0.40)   |
 | Adult      |   30% (0.30)   |
-| Large      |   7% (0.07)    |
-| Large+     | 2.98% (0.0298) |
+| Large      | 9.98% (0.0998) |
 | Gigantic   | 0.02% (0.0002) |
 
 The formula for scale for each size group:
@@ -39,13 +38,8 @@ The formula for scale for each size group:
 | Baby       | $1 - (Juvenile + Adult + Large + Large\_plus + Gigantic)$ |
 | Juvenile   | $(40 - (Scale \times 0.008)) \times 0.01$                 |
 | Adult      | $(30 + (Scale \times 0.008)) \times 0.01$                 |
-| Large      | $(7 + (Scale \times 0.008)) \times 0.01$                  |
-| Large+     | $(2.98 + (Scale \times 0.01)) \times 0.01$                |
-| Gigantic   | $(0.02 + (Scale \times 0.001)) \times 0.01$                |
-
-::: info
-Large and Large+ in the game are the same thing. Both just have different sizes but are shown visually as 'large' in game.
-:::
+| Large      | $(9.98 + (Scale \times 0.018)) \times 0.01$               |
+| Gigantic   | $(0.02 + (Scale \times 0.001)) \times 0.01$               |
 
 ## Calculate Scale Chance (Without baits/lures)
 ::: info
@@ -62,7 +56,7 @@ You can get your scale stat by going to your stat page (`/stats`) and hover over
     </tr>
     <tr>
       <td>Baby</td>
-      <td>{{ (100 - ((40 - (scale * 0.008)) + (30 + (scale * 0.008)) + (7 + (scale * 0.008)) + (2.98 + (scale * 0.01)) + (0.02 + (scale * 0.001)))).toFixed(2)  }}%</td>
+      <td>{{ (100 - ((40 - (scale * 0.008)) + (30 + (scale * 0.008)) + (9.98 + (scale * 0.018)) + (0.02 + (scale * 0.001)))).toFixed(2)  }}%</td>
     </tr>
     <tr>
       <td>Juvenile</td>
@@ -74,11 +68,7 @@ You can get your scale stat by going to your stat page (`/stats`) and hover over
     </tr>
     <tr>
       <td>Large</td>
-      <td>{{ (7 + (scale * 0.008)).toFixed(2) }}%</td>
-    </tr>
-    <tr>
-      <td>Large+</td>
-      <td>{{ (2.98 + (scale * 0.01)).toFixed(2) }}%</td>
+      <td>{{ (9.98 + (scale * 0.018)).toFixed(2) }}%</td>
     </tr>
     <tr>
       <td>Gigantic</td>
