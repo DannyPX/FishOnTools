@@ -42,7 +42,7 @@ Here you can search baits by name, rarity, fish group, fish species, location or
         && bait.fishspecies.toString().toLowerCase().includes(searchFishspecies.toLowerCase())
         && bait.location.toString().toLowerCase().includes(searchLocation.toLowerCase())
         && bait.water.toLowerCase().includes(searchWater.toLowerCase()))
-        || (searchBait == '' && searchRarity == '' && searchFishgroup == '' && searchLocation == '' && searchWater == '' && searchFishspecies = '')">
+        || (searchBait == '' && searchRarity == '' && searchFishgroup == '' && searchLocation == '' && searchWater == '' && searchFishspecies == '')">
         <td>{{bait.bait}}</td>
         <td>{{bait.rarity}}</td>
         <td>{{bait.fishgroup.join(", ")}}</td>
