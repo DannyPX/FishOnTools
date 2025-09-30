@@ -237,7 +237,6 @@ export default {
           "Eels"
         ],
         "fishspecies": [],
-        "fishspecies": [],
         "lifestyle": [],
         "location": [],
         "water": "Freshwater"
