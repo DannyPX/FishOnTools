@@ -9,6 +9,7 @@ import { data } from './bait.data.ts'
 const searchBait = ref("")
 const searchRarity = ref("")
 const searchFishgroup = ref("")
+const searchFishspecies = ref("")
 const searchLocation = ref("")
 const searchWater = ref("")
 </script>
@@ -18,7 +19,7 @@ Outdated since 2025/06/14
 :::
 
 # Bait overview
-Here you can search baits by name, rarity, fish group, location or water type.
+Here you can search baits by name, rarity, fish group, fish species, location or water type.
 
 <table>
   <tbody>
@@ -26,6 +27,7 @@ Here you can search baits by name, rarity, fish group, location or water type.
       <th><div :class="$style.label">Search Bait</div> <input :class="$style.inputBox" v-model="searchBait" placeholder="Search"/></th>
       <th><div :class="$style.label">Search Rarity</div> <input :class="$style.inputBox" v-model="searchRarity" placeholder="Search"/></th>
       <th><div :class="$style.label">Search Fish Group</div> <input :class="$style.inputBox" v-model="searchFishgroup" placeholder="Search"/></th>
+      <th><div :class="$style.label">Search Fish Species</div> <input :class="$style.inputBox" v-model="searchFishspecies" placeholder="Search"/></th>
       <th><div :class="$style.label">Search Location</div> <input :class="$style.inputBox" v-model="searchLocation" placeholder="Search"/></th>
       <th><div :class="$style.label">Search Water</div> <input :class="$style.inputBox" v-model="searchWater" placeholder="Search"/></th>
     </tr>
@@ -33,6 +35,7 @@ Here you can search baits by name, rarity, fish group, location or water type.
       <th>Bait</th>
       <th>Rarity</th>
       <th>Fish Group</th>
+      <th>Fish Species</th>
       <th>Location</th>
       <th>Water</th>
     </tr>
@@ -40,12 +43,14 @@ Here you can search baits by name, rarity, fish group, location or water type.
       <tr v-if="(bait.bait.toLowerCase().includes(searchBait.toLowerCase()) 
         && bait.rarity.toLowerCase().includes(searchRarity.toLowerCase())
         && bait.fishgroup.toString().toLowerCase().includes(searchFishgroup.toLowerCase())
+        && bait.fishspecies.toString().toLowerCase().includes(searchFishspecies.toLowerCase())
         && bait.location.toString().toLowerCase().includes(searchLocation.toLowerCase())
         && bait.water.toLowerCase().includes(searchWater.toLowerCase()))
         || (searchBait == '' && searchRarity == '' && searchFishgroup == '' && searchLocation == '' && searchWater == '')">
         <td>{{bait.bait}}</td>
         <td>{{bait.rarity}}</td>
         <td>{{bait.fishgroup.join(", ")}}</td>
+        <td>{{bait.fishspecies.join(", ")}}</td>
         <td>{{bait.location.join(", ")}}</td>
         <td>{{bait.water}}</td>
       </tr>
