@@ -326,7 +326,7 @@ export default {
         "rarity": "Epic",
         "fishgroup": [
           "Basses",
-          "Perches
+          "Perches"
         ],
         "fishspecies": [],
         "lifestyle": [],
@@ -790,7 +790,7 @@ export default {
           "Basses",
           "Panfishes",
           "Trouts",
-          "Perches,",
+          "Perches",
           "Temperate Perches",
           "Pikes"
         ],
