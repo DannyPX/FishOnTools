@@ -14,10 +14,6 @@ const searchLocation = ref("")
 const searchWater = ref("")
 </script>
 
-::: warning
-Outdated since 2025/06/14
-:::
-
 # Bait overview
 Here you can search baits by name, rarity, fish group, fish species, location or water type.
 
