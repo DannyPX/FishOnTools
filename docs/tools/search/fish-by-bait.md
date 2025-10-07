@@ -9,6 +9,7 @@ import { data as baitData } from './bait.data.ts'
 
 const searchFishgroup = ref("")
 const searchLifestyle = ref("")
+const searchFishSpecies = ref("")
 const searchLocation = ref("")
 const searchWater = ref("")
 
@@ -26,14 +27,11 @@ function onBaitChange() {
   var baitObj = findBait(baitSelected.value)
   searchFishgroup.value = baitObj.fishgroup.toString()
   searchWater.value = baitObj.water.toString()
+  searchFishSpecies.value = baitObj.fishspecies.toString()
   searchLocation.value = baitObj.location.toString()
   searchLifestyle.value = baitObj.lifestyle.toString()
 }
 </script>
-
-::: warning
-Outdated since 2025/06/14
-:::
 
 # Search Fish by Bait
 Look up what fishes can be caught by bait.
@@ -57,10 +55,11 @@ Look up what fishes can be caught by bait.
     </tr>
     <template v-for="fish in fishData">
       <tr v-if="((searchFishgroup.toLowerCase().includes(fish.fishgroup.toLowerCase()) || searchFishgroup == '')
+      && (searchFishSpecies.toLowerCase().includes(fish.species.toLowerCase()) || searchFishSpecies == '')
       && searchWater.includes(fish.water)
       && fish.location.toLowerCase().includes(searchLocation.toLowerCase())
       && fish.lifestyle.toLowerCase().includes(searchLifestyle.toLowerCase()))
-      || (searchFishgroup == '' && searchLifestyle == '' && searchLocation == '' && searchWater == '')">
+      || (searchFishgroup == '' && searchLifestyle == '' && searchLocation == '' && searchWater == '' && searchFishSpecies == '')">
         <td>{{fish.species}}</td>
         <td>{{fish.fishgroup}}</td>
         <td>{{fish.lifestyle}}</td>
